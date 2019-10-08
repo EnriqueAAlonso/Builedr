@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace NonFluentBuilder.Builders
 {
-    class CaseraBuilder
+    class CaseraBuilder:BurguerBuilder
     {
         Hamburguesa burguer = new Hamburguesa();
 
-        public CaseraBuilder()
+        public CaseraBuilder(long id):base( id)
         {
+            burguer.setId(id);
             burguer.carne = TipoCarne.Vaca;
             burguer.costo = 65;
             burguer.foto = "Casera.jpg";

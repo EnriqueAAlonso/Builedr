@@ -118,40 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Casera" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Casera.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Doble" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Doble.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Casera1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Casera.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Doble1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Doble.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Frida" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Frida.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Infantil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Infantil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Parrilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Parrilla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Jerry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Jerry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Casera1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Casera.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Casera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Casera.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relleno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\relleno.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pollo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Pollo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Media" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Media.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grueso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Grueso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Club" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Club.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vientam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Vientam.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nacho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Nacho.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Infantil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Infantil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pancho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pancho.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Parrilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Parrilla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Full.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Frida.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Doble1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Doble.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supreme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Supreme.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Doble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Doble.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jamon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Jamon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clasico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Clasico.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Shelby" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Shelby.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stuffed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Stuffed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

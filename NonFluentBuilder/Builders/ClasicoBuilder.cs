@@ -6,23 +6,21 @@ using System.Threading.Tasks;
 
 namespace NonFluentBuilder.Builders
 {
-    class FridaBuilder:BurguerBuilder
+    class ClasicoBuilder : SandwichBuilder
     {
-        Hamburguesa burguer = new Hamburguesa();
+        Sandwich burguer = new Sandwich();
 
-        public FridaBuilder(long id) : base(id)
+        public ClasicoBuilder(long id) : base(id)
         {
             burguer.setId(id);
-            burguer.carne = TipoCarne.Vaca;
-            burguer.costo = 65;
-            burguer.foto = "Frida.jpg";
+            burguer.costo = 55;
+            burguer.foto = "Clasico.jpg";
             setIngredientes();
-            burguer.nombre = "Frida";
-            burguer.pan = TipoPan.Molde;
-            burguer.papas = true;
+            burguer.nombre = "Clasico";
+            burguer.pan = TipoPan.Integral;
         }
 
-        public Hamburguesa cocinar()
+        public Sandwich cocinar()
         {
             return burguer;
         }
@@ -32,7 +30,7 @@ namespace NonFluentBuilder.Builders
             burguer.ingredientes.Add("Tomate");
             burguer.ingredientes.Add("Queso Amarillo");
             burguer.ingredientes.Add("Lechuga");
-            burguer.ingredientes.Add("Ranch");
+            burguer.ingredientes.Add("Atun");
 
 
 

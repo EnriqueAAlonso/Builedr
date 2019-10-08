@@ -46,16 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Baguette.cs" />
+    <Compile Include="BaguetteBuilder.cs" />
     <Compile Include="Builders\CaseraBuilder.cs" />
+    <Compile Include="Builders\ClasicoBuilder.cs" />
+    <Compile Include="Builders\ClubBuilder.cs" />
     <Compile Include="Builders\DobleBuilder.cs" />
     <Compile Include="Builders\FridaBuilder.cs" />
+    <Compile Include="Builders\FullBuilder.cs" />
+    <Compile Include="Builders\GruesoBuilder.cs" />
     <Compile Include="Builders\InfantilBuilder.cs" />
+    <Compile Include="Builders\JamonBuilder.cs" />
     <Compile Include="Builders\JerryBuilder.cs" />
     <Compile Include="Builders\MediaBuilder.cs" />
     <Compile Include="Builders\NachoBuilder.cs" />
     <Compile Include="Builders\PanchoBuilder.cs" />
     <Compile Include="Builders\ParrillaBuilder.cs" />
+    <Compile Include="Builders\PolloBuilder.cs" />
+    <Compile Include="Builders\RellenoBuilder.cs" />
     <Compile Include="Builders\ShelbyBuilder.cs" />
+    <Compile Include="Builders\StuffedBuilder.cs" />
+    <Compile Include="Builders\SupremeBuilder.cs" />
+    <Compile Include="Builders\VietnamBuilder.cs" />
+    <Compile Include="BurguerBuilder.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,8 +76,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Hamburguesa.cs" />
+    <Compile Include="IFood.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sandwich.cs" />
+    <Compile Include="SandwichBuilder.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +108,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Imagenes\Stuffed.jpg" />
+    <None Include="Imagenes\Vientam.jpg" />
+    <None Include="Imagenes\Supreme.jpg" />
     <None Include="Shelby.jpg" />
     <None Include="Parrilla.jpg" />
     <None Include="Pancho.jpg" />
@@ -103,14 +122,21 @@
     <None Include="Doble.jpg" />
     <None Include="Casera.jpg" />
     <Content Include="Imagenes\Casera.jpg" />
+    <None Include="Imagenes\Club.jpg" />
+    <None Include="Imagenes\Clasico.jpg" />
     <Content Include="Imagenes\Doble.jpg" />
     <Content Include="Imagenes\Frida.jpg" />
+    <Content Include="Imagenes\Full.jpg" />
+    <None Include="Imagenes\Grueso.jpg" />
     <Content Include="Imagenes\Infantil.jpg" />
+    <None Include="Imagenes\Jamon.jpg" />
     <Content Include="Imagenes\Jerry.jpg" />
     <Content Include="Imagenes\Media.jpg" />
     <Content Include="Imagenes\Nacho.jpg" />
     <Content Include="Imagenes\Pancho.jpg" />
     <Content Include="Imagenes\Parrilla.jpg" />
+    <None Include="Imagenes\relleno.jpg" />
+    <None Include="Imagenes\Pollo.jpg" />
     <Content Include="Imagenes\Shelby.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
